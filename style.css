@@ -3,7 +3,6 @@ img{
     height: 150px;
     border-radius: 50%;
     margin: 15px;
-    
 }
 .upper{
     display: flex;
@@ -16,12 +15,12 @@ hr{
 .name{
     display: flex;
     flex-direction: column;
+    margin-right: 0px;
     padding: 15px;
     background-color: rgb(54, 53, 68);
     color: white;
     margin-left: 30px;
-
-}
+} 
 .navs{
     list-style-type: none;
     margin: 0;
@@ -69,6 +68,8 @@ h2,h3{
 body{
     background-color: #f1f1f1;
     font-family: Poppins, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .right-col a{
     color: rgb(54, 53, 68);
@@ -76,9 +77,6 @@ body{
 .right-col a:hover{
     background-color: rgb(54, 53, 68);
     color: white;
-}
-.right-col a:visited{
-    color: grey;
 }
 footer{
     background-color:  rgb(54, 53, 68);
@@ -88,4 +86,6 @@ footer{
     text-align: center;
     padding: 4px;
 }
+
+
 
